@@ -9,100 +9,271 @@ _yay_
 [Pocetna](./index.md) | [O nama](./o-nama.md) | [Reference](#) 
 
 
-<div align="center">
- <h1> <img src="https://gprm.itsvg.in/logo.png" width="80px"><br/>GPRM : GitHub Profile ReadMe Maker</h1>
- <a href="https://www.buymeacoffee.com/VishwaGauravIn" target="_blank"><img alt="" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black" style="vertical-align:center" /></a>
- <img src="https://img.shields.io/npm/v/npm?style=normal"/>
- <img src="https://img.shields.io/website?style=normal&url=https%3A%2F%2Fgprm.itsvg.in/"/> 
- <img src="https://img.shields.io/badge/License-GPL%20v3-brightgreen?style=normal"/>
- <img src="https://img.shields.io/github/languages/code-size/VishwaGauravIn/github-profile-readme-maker?logo=github&style=normal"/>
-</div>
-<br/>
+# Editor.md
 
-![screencapture-gprm-itsvg-in-2022-06-20-23_26_35](https://user-images.githubusercontent.com/81325730/174656518-bfb20479-6b5c-4947-8a5c-f709f35ed345.png)
+![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
-# Features
-We got everything that you need ! Create your perfect GitHub Profile ReadMe in the best possible way. Lots of features and tools included, all for free !
+![](https://img.shields.io/github/stars/pandao/editor.md.svg)
+![](https://img.shields.io/github/forks/pandao/editor.md.svg)
+![](https://img.shields.io/github/tag/pandao/editor.md.svg)
+![](https://img.shields.io/github/release/pandao/editor.md.svg)
+![](https://img.shields.io/github/issues/pandao/editor.md.svg)
+![](https://img.shields.io/bower/v/editor.md.svg)
 
-### ⚡ Lightening fast Profile Creation
-Create your Profile ReadMe in just few clicks ! On an average, it takes less than one minute to create a perfect Profile ReadMe using GPRM
+**Editor.md** : The open source embeddable online markdown editor (component), based on CodeMirror & jQuery & Marked.
 
-### 📊 Flex Your GitHub Stats
-Be Honest, everyone loves to flex their achievements. With tools such as ReadMe Stats, Most Used Languages, Streak Stats you can show your achievements.
+### Features
 
-### 👥 Visitor Counter
-With the use of Visitors Counter you can see how many people viewed your profile, this gives you an idea about how popular you are on GitHub.
+- Support Standard Markdown / CommonMark and GFM (GitHub Flavored Markdown);
+- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
+- Markdown Extras : Support [ToC (Table of Contents)](https://pandao.github.io/editor.md/examples/toc.html), [Emoji](https://pandao.github.io/editor.md/examples/emoji.html), [Task lists](https://pandao.github.io/editor.md/examples/task-lists.html), [@Links](https://pandao.github.io/editor.md/examples/@links.html)...;
+- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
+- Support [decode & fliter of the HTML tags & attributes](https://pandao.github.io/editor.md/examples/html-tags-decode.html);
+- Support [TeX (LaTeX expressions, Based on KaTeX)](https://pandao.github.io/editor.md/examples/katex.html), [Flowchart](https://pandao.github.io/editor.md/examples/flowchart.html) and [Sequence Diagram](https://pandao.github.io/editor.md/examples/sequence-diagram.html) of Markdown extended syntax;
+- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
 
-### 🌐 Add all Social Links
-We have added an option to add your Social Links to increase your reach and promote your works at one place.
+[README & Examples (English)](https://pandao.github.io/editor.md/en.html)
+  
 
-### 💻 Show Your Tech Stack
-Select from over 300+ tech options and show your tech stack to everyone, Let them know what makes you awesome.
+--------
 
-### 💰 Let people help you with Donations
-No matter what your aim is, money is required at some point to boost the process for getting closer to your aim. We give you an option to add Donation Links directly into your profile so that people can help you by donating.
+**Editor.md** 是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。
 
-### 😃 Fun Components
-If fun is required everywhere, how can it be missing from your profile ? Now, You can cheer up other people by adding Random Memes and Quotes in your profile.
+![editormd-screenshot](https://pandao.github.io/editor.md/examples/images/editormd-screenshot.png "editormd-screenshot")
 
-### 🏆 GitHub Trophies
-Got any trophies/medals but oops! how can you show them on your profile? Don't worry, GitHub Trophies are the virtual trophies for you. Showcase them by adding it to your profile.
+#### 主要特性
 
-## Our Social Links
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=normal&logo=linkedin&logoColor=white)](https://linkedin.com/in/VishwaGauravIn)
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=normal&logo=Twitter&logoColor=white)](https://twitter.com/VishwaGauravIn)
+- 支持通用 Markdown / CommonMark 和 GFM (GitHub Flavored Markdown) 风格的语法，也可[变身为代码编辑器](https://pandao.github.io/editor.md/examples/change-mode.html)；
+- 支持实时预览、图片（跨域）上传、预格式文本/代码/表格插入、代码折叠、跳转到行、搜索替换、只读模式、自定义样式主题和多语言语法高亮等功能；
+- 支持 [ToC（Table of Contents）](https://pandao.github.io/editor.md/examples/toc.html)、[Emoji表情](https://pandao.github.io/editor.md/examples/emoji.html)、[Task lists](https://pandao.github.io/editor.md/examples/task-lists.html)、[@链接](https://pandao.github.io/editor.md/examples/@links.html)等 Markdown 扩展语法；
+- 支持 TeX 科学公式（基于 [KaTeX](https://pandao.github.io/editor.md/examples/katex.html)）、流程图 [Flowchart](https://pandao.github.io/editor.md/examples/flowchart.html) 和 [时序图 Sequence Diagram](https://pandao.github.io/editor.md/examples/sequence-diagram.html);
+- 支持[识别和解析 HTML 标签，并且支持自定义过滤标签及属性解析](https://pandao.github.io/editor.md/examples/html-tags-decode.html)，具有可靠的安全性和几乎无限的扩展性；
+- 支持 AMD / CMD 模块化加载（支持 [Require.js](https://pandao.github.io/editor.md/examples/use-requirejs.html) & [Sea.js](https://pandao.github.io/editor.md/examples/use-seajs.html)），并且支持[自定义扩展插件](https://pandao.github.io/editor.md/examples/define-plugin.html)；
+- 兼容主流的浏览器（IE8+）和 [Zepto.js](https://pandao.github.io/editor.md/examples/use-zepto.html)，且支持 iPad 等平板设备；
 
-## PageSpeed Insights
-![](https://raw.githubusercontent.com/VishwaGauravIn/Images/f13849bc9989d66c67085313dd606ea978eff0f8/psi-gprm.svg)
+#### Download & install
 
-## Tech Used
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+Download:
 
-[![image](https://user-images.githubusercontent.com/81325730/209995550-63bdb319-f8fd-4383-bcfc-9021c4bc5642.png)](https://vercel.com/?utm_source=team_vishwagauravin&utm_campaign=oss)
+[Github download](https://github.com/pandao/editor.md/archive/master.zip)
 
-<details>
-<summary>
-  NextJS Guide
-</summary>
-
-## Getting Started
-
-First, run the development server:
+NPM install :
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm install editor.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bower install :
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+bower install editor.md
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Usages
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+##### Create a Markdown editor
 
-## Learn More
+```html
+<link rel="stylesheet" href="editor.md/css/editormd.min.css" />
+<div id="editor">
+    <!-- Tips: Editor.md can auto append a `<textarea>` tag -->
+    <textarea style="display:none;">### Hello Editor.md !</textarea>
+</div>
+<script src="jquery.min.js"></script>
+<script src="editor.md/editormd.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("editor", {
+            // width: "100%",
+            // height: "100%",
+            // markdown: "xxxx",     // dynamic set Markdown text
+            path : "editor.md/lib/"  // Autoload modules mode, codemirror, marked... dependents libs path
+        });
+    });
+</script>
+```
 
-To learn more about Next.js, take a look at the following resources:
+If you using modular script loader:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Using Require.js](https://github.com/pandao/editor.md/tree/master/examples/use-requirejs.html)
+- [Using Sea.js](https://github.com/pandao/editor.md/tree/master/examples/use-seajs.html)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##### Markdown to HTML
 
-## Deploy on Vercel
+```html
+<link rel="stylesheet" href="editormd/css/editormd.preview.css" />
+<div id="test-markdown-view">
+    <!-- Server-side output Markdown text -->
+    <textarea style="display:none;">### Hello world!</textarea>             
+</div>
+<script src="jquery.min.js"></script>
+<script src="editormd/editormd.js"></script>
+<script src="editormd/lib/marked.min.js"></script>
+<script src="editormd/lib/prettify.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+	    var testView = editormd.markdownToHTML("test-markdown-view", {
+            // markdown : "[TOC]\n### Hello world!\n## Heading 2", // Also, you can dynamic set Markdown text
+            // htmlDecode : true,  // Enable / disable HTML tag encode.
+            // htmlDecode : "style,script,iframe",  // Note: If enabled, you should filter some dangerous HTML tags for website security.
+        });
+    });
+</script>    
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> See the full example: [http://editor.md.ipandao.com/examples/html-preview-markdown-to-html.html](http://editor.md.ipandao.com/examples/html-preview-markdown-to-html.html)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-  
-</details>
+##### HTML to Markdown?
+
+Sorry, Editor.md not support HTML to Markdown parsing, Maybe In the future.
+
+#### Examples
+
+[https://pandao.github.io/editor.md/examples/index.html](https://pandao.github.io/editor.md/examples/index.html)
+
+#### Options
+
+Editor.md options and default values:
+
+```javascript
+{
+    mode                 : "gfm",          // gfm or markdown
+    name                 : "",             // Form element name for post
+    value                : "",             // value for CodeMirror, if mode not gfm/markdown
+    theme                : "",             // Editor.md self themes, before v1.5.0 is CodeMirror theme, default empty
+    editorTheme          : "default",      // Editor area, this is CodeMirror theme at v1.5.0
+    previewTheme         : "",             // Preview area theme, default empty
+    markdown             : "",             // Markdown source code
+    appendMarkdown       : "",             // if in init textarea value not empty, append markdown to textarea
+    width                : "100%",
+    height               : "100%",
+    path                 : "./lib/",       // Dependents module file directory
+    pluginPath           : "",             // If this empty, default use settings.path + "../plugins/"
+    delay                : 300,            // Delay parse markdown to html, Uint : ms
+    autoLoadModules      : true,           // Automatic load dependent module files
+    watch                : true,
+    placeholder          : "Enjoy Markdown! coding now...",
+    gotoLine             : true,           // Enable / disable goto a line
+    codeFold             : false,
+    autoHeight           : false,
+    autoFocus            : true,           // Enable / disable auto focus editor left input area
+    autoCloseTags        : true,
+    searchReplace        : true,           // Enable / disable (CodeMirror) search and replace function
+    syncScrolling        : true,           // options: true | false | "single", default true
+    readOnly             : false,          // Enable / disable readonly mode
+    tabSize              : 4,
+    indentUnit           : 4,
+    lineNumbers          : true,           // Display editor line numbers
+    lineWrapping         : true,
+    autoCloseBrackets    : true,
+    showTrailingSpace    : true,
+    matchBrackets        : true,
+    indentWithTabs       : true,
+    styleSelectedText    : true,
+    matchWordHighlight   : true,           // options: true, false, "onselected"
+    styleActiveLine      : true,           // Highlight the current line
+    dialogLockScreen     : true,
+    dialogShowMask       : true,
+    dialogDraggable      : true,
+    dialogMaskBgColor    : "#fff",
+    dialogMaskOpacity    : 0.1,
+    fontSize             : "13px",
+    saveHTMLToTextarea   : false,          // If enable, Editor will create a <textarea name="{editor-id}-html-code"> tag save HTML code for form post to server-side.
+    disabledKeyMaps      : [],
+    
+    onload               : function() {},
+    onresize             : function() {},
+    onchange             : function() {},
+    onwatch              : null,
+    onunwatch            : null,
+    onpreviewing         : function() {},
+    onpreviewed          : function() {},
+    onfullscreen         : function() {},
+    onfullscreenExit     : function() {},
+    onscroll             : function() {},
+    onpreviewscroll      : function() {},
+    
+    imageUpload          : false,          // Enable/disable upload
+    imageFormats         : ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
+    imageUploadURL       : "",             // Upload url
+    crossDomainUpload    : false,          // Enable/disable Cross-domain upload
+    uploadCallbackURL    : "",             // Cross-domain upload callback url
+
+    toc                  : true,           // Table of contents
+    tocm                 : false,          // Using [TOCM], auto create ToC dropdown menu
+    tocTitle             : "",             // for ToC dropdown menu button
+    tocDropdown          : false,          // Enable/disable Table Of Contents dropdown menu
+    tocContainer         : "",             // Custom Table Of Contents Container Selector
+    tocStartLevel        : 1,              // Said from H1 to create ToC
+    htmlDecode           : false,          // Open the HTML tag identification 
+    pageBreak            : true,           // Enable parse page break [========]
+    atLink               : true,           // for @link
+    emailLink            : true,           // for email address auto link
+    taskList             : false,          // Enable Github Flavored Markdown task lists
+    emoji                : false,          // :emoji: , Support Github emoji, Twitter Emoji (Twemoji);
+                                           // Support FontAwesome icon emoji :fa-xxx: > Using fontAwesome icon web fonts;
+                                           // Support Editor.md logo icon emoji :editormd-logo: :editormd-logo-1x: > 1~8x;
+    tex                  : false,          // TeX(LaTeX), based on KaTeX
+    flowChart            : false,          // flowChart.js only support IE9+
+    sequenceDiagram      : false,          // sequenceDiagram.js only support IE9+
+    previewCodeHighlight : true,           // Enable / disable code highlight of editor preview area
+
+    toolbar              : true,           // show or hide toolbar
+    toolbarAutoFixed     : true,           // on window scroll auto fixed position
+    toolbarIcons         : "full",         // Toolbar icons mode, options: full, simple, mini, See `editormd.toolbarModes` property.
+    toolbarTitles        : {},
+    toolbarHandlers      : {
+        ucwords : function() {
+            return editormd.toolbarHandlers.ucwords;
+        },
+        lowercase : function() {
+            return editormd.toolbarHandlers.lowercase;
+        }
+    },
+    toolbarCustomIcons   : {               // using html tag create toolbar icon, unused default <a> tag.
+        lowercase        : "<a href=\"javascript:;\" title=\"Lowercase\" unselectable=\"on\"><i class=\"fa\" name=\"lowercase\" style=\"font-size:24px;margin-top: -10px;\">a</i></a>",
+        "ucwords"        : "<a href=\"javascript:;\" title=\"ucwords\" unselectable=\"on\"><i class=\"fa\" name=\"ucwords\" style=\"font-size:20px;margin-top: -3px;\">Aa</i></a>"
+    },
+    toolbarIconTexts     : {},
+    
+    lang : {  // Language data, you can custom your language.
+        name        : "zh-cn",
+        description : "开源在线Markdown编辑器<br/>Open source online Markdown editor.",
+        tocTitle    : "目录",
+        toolbar     : {
+            //...
+        },
+        button: {
+            //...
+        },
+        dialog : {
+            //...
+        }
+        //...
+    }
+}
+```
+
+#### Dependents
+
+- [CodeMirror](http://codemirror.net/ "CodeMirror")
+- [marked](https://github.com/markedjs/marked "marked")
+- [jQuery](http://jquery.com/ "jQuery")
+- [FontAwesome](http://fontawesome.io/ "FontAwesome")
+- [github-markdown.css](https://github.com/sindresorhus/github-markdown-css "github-markdown.css")
+- [KaTeX](http://khan.github.io/KaTeX/ "KaTeX")
+- [prettify.js](http://code.google.com/p/google-code-prettify/ "prettify.js")
+- [Rephael.js](http://raphaeljs.com/ "Rephael.js")
+- [flowchart.js](http://adrai.github.io/flowchart.js/ "flowchart.js")
+- [sequence-diagram.js](http://bramp.github.io/js-sequence-diagrams/ "sequence-diagram.js")
+- [Prefixes.scss](https://github.com/pandao/prefixes.scss "Prefixes.scss")
+
+#### Changes
+
+[Change logs](https://github.com/pandao/editor.md/blob/master/CHANGE.md)
+
+#### License
+
+The MIT License.
+
+Copyright (c) 2015-2019 Pandao
